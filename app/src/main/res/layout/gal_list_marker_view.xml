@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:theme="@style/AlertDialog.AppCompat">
+
+    <TextView
+        android:id="@+id/title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="18dp"
+        android:text="Title"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_info"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title_info"
+            android:layout_alignStart="@+id/title_info"
+            android:layout_below="@+id/title_info"
+            android:text="Lat:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lat_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title_info"
+            android:layout_alignStart="@+id/title_info"
+            android:layout_below="@+id/title_info"
+            android:text="lat"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/lan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lat_tv"
+            android:layout_toEndOf="@+id/title_info"
+            android:layout_toRightOf="@+id/title_info"
+            android:text="Lng:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lan_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lat_tv"
+            android:layout_toEndOf="@+id/title_info"
+            android:layout_toRightOf="@+id/title_info"
+            android:text="Lan"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/linear"
+        android:background="@android:color/background_dark"/>
+</RelativeLayout>

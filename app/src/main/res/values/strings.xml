@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">K_Gallery</string>
+    <string name="tab_photo">Photos</string>
+    <string name="tab_album">Album</string>
+    <string name="tab_favorite">Favorite</string>
+    <string name="tab_private">Private</string>
+
+    <string name="authority">com.kics.kstudio.kgallery.fileprovider</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="title_activity_maps">maps</string>
+
+
+</resources>

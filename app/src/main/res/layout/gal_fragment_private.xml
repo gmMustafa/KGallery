@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <com.kics.kstudio.kgallery.Numpad.GalleryNumPad
+        android:id="@+id/numpad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="0.75"
+        android:id="@+id/recycler_view_private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/n_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="top|center"
+        android:text="NO PHOTO FOUND \n YOU CAN ADD YOUR PRIVATE  PHOTOS HERE "
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+
+</LinearLayout>

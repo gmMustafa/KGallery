@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Input Password"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="fill_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageview_block1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/code_not_enterd" />
+
+            <ImageView
+                android:id="@+id/imageview_block2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/code_not_enterd" />
+
+            <ImageView
+                android:id="@+id/imageview_block3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/code_not_enterd" />
+
+            <ImageView
+                android:id="@+id/imageview_block4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:src="@drawable/code_not_enterd" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Forget Passwrod?"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:divider="@drawable/numpad_divider"
+            android:orientation="vertical"
+            android:showDividers="beginning|middle|end">
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/t9_key_1"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_one"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_2"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_two"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_3"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_three"
+                    android:textSize="28sp" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/t9_key_4"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_four"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_5"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_five"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_6"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_six"
+                    android:textSize="28sp" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/t9_key_7"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_seven"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_8"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_eight"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_9"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_nine"
+                    android:textSize="28sp" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row">
+
+                <TextView
+                    android:id="@+id/t9_key_clear"
+                    style="@style/keyboard_button"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/t9_key_0"
+                    style="@style/keyboard_number_button"
+                    android:text="@string/number_zero"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/t9_key_backspace"
+                    style="@style/keyboard_button"
+                    android:text="Back"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="22sp">
+
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+</LinearLayout>

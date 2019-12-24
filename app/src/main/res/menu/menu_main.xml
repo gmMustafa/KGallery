@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/hide_app"
+        android:title="Hide Gallery" />
+    <item android:id="@+id/add_loc"
+        android:title="Add Locations" />
+    <item
+        android:id="@+id/loc_lock"
+        android:checkable="true"
+        android:title="Location Lock" />
+
+</menu>

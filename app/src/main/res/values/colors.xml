@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="indicator_color">#0e4ce8</color>
+    <color name="normal_color">#ffffff</color>
+    <color name="selected_color">#0e4ce8</color>
+    <color name="white">#ffffff</color>
+    <color name="tab_layout_bg">#666666</color>
+    <color name="bg">#d9d7d7</color>
+
+    <color name="colorNone">#aaadb3</color>
+    <color name="vw_ShadowItem">#94333232</color>
+    <color name="red">#ff4d4d</color>
+
+    <color name="place">#D3D3D3</color>
+
+</resources>
