@@ -4,9 +4,9 @@ KGallery is a user focused mobile application providing interactive UI, security
 
 
 ### Screens 
-Albums                     |  Favorite            | Private Gallery                      |
+ Splash                    |  Albums            | Private Gallery                      |
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](/ScreenShots/Albums_N.png)        |  ![](/ScreenShots/Fvr8FFound.png)      |![](/ScreenShots/PrvateGal.png)        |
+![](/ScreenShots/splash.png)        |  ![](/ScreenShots/Albums.png)      |![](/ScreenShots/PrvateGal.png)        |
 
 Photos                     |  Lock            | Gallery View                      |
 :-------------------------:|:-------------------------:|:-------------------------:|
@@ -16,3 +16,6 @@ Photos                     |  Lock            | Gallery View                    
 Custom Scroll                     |   	Wrong            | Favorite Not Found                      |
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![](/ScreenShots/CustomScroll.png)        |  ![](/ScreenShots/Wrong.png)      |![](/ScreenShots/fvr8NF.png)        |
+
+
+
