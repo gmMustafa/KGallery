@@ -1,7 +1,8 @@
 # KGallery
-KGallery is a user focused mobile application providing interactive UI, security and categorization features. The goal was to provide users with fast photo & video viewer, configurable thumbnail, Photo tag viewer & editor, different photo views, custom action buttons (edit, delete, favorites,...) in photo view, scroll with date search in built, animated GIF support, password protected photo vault. configurable screen orientation and a lot more. Using JAVA, XML, Fire Base Authentication and Third Party APIs.
+KGallery is a user focused mobile application providing interactive UI, security and categorization features. The goal was to provide users with fast photo & video viewer, configurable thumbnail, Photo tag viewer & editor, different photo views, custom action buttons (edit, delete, favorites,...) in photo view, scroll with date search in built, animated GIF support, password protected photo vault. configurable screen orientation and a lot more. Using JAVA, XML, Fire Base Authentication and Third Party APIs. Developed (08-2018)
 
-
+* To Run project add your own google api key.
+* And google-services.json from firebase console into phoneauth module. 
 
 ### Screens 
  Albums                    |  Favorite            | Private Gallery                      |
