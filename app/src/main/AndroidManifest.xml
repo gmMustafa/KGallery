@@ -81,10 +81,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <!--        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4256397032964505~9020223402" />-->
-
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.kics.kstudio.kgallery.fileprovider"
